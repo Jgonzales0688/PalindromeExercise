@@ -8,9 +8,9 @@ namespace PalindromeExercise
 {
     public class WordSmith
     {
-        public bool IsAPalindrome(string retval)
+        public bool IsAPalindrome(string myString)
         { 
-            throw new NotImplementedException();
+            return myString.SequenceEqual(myString.Reverse());
         }
     }
 }
